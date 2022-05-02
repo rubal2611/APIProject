@@ -72,7 +72,6 @@ if(empty($word)){
 $word = strtolower($word);
 
 /* CAll to first Dictionary with CURL */
-/*To Do - Handling pof Headers is Pending  */
 $ch = curl_init();
 // set url
 curl_setopt($ch, CURLOPT_URL, "https://api.dictionaryapi.dev/api/v2/entries/en/$word");
